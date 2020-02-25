@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="lzma">
+</Property><Property Name="Файл решения" Value="D:\source2006\utils\lzma\lzma.sln">
+</Property><Property Name="Date" Value="24 сентября 2017 г.">
+</Property><Property Name="Time" Value="20:10:14">
+</Property><Property Name="Номер записи" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="lzma" Source="lzma.vcproj" Description="Converting project file 'D:\source2006\utils\lzma\lzma.vcproj'.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="MSB8012: $(TargetPath) ('D:\source2006\utils\lzma\.\Debug\lzma.lib') does not match the Librarian's OutputFile property value '..\..\lib\common\vc8\lzma.lib' ('D:\source2006\lib\common\vc8\lzma.lib') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="1" Project="lzma" Source="lzma.vcproj" Description="MSB8012: $(TargetPath) ('D:\source2006\utils\lzma\.\Release\lzma.lib') does not match the Librarian's OutputFile property value '..\..\lib\common\vc8\lzma.lib' ('D:\source2006\lib\common\vc8\lzma.lib') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="0" Project="lzma" Source="lzma.vcproj" Description="Done converting to new project file 'D:\source2006\utils\lzma\lzma.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="lzma" Source="lzma.vcproj" Description="Converted">
+</Event></UpgradeLog>

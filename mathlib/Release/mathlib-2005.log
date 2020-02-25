@@ -1,0 +1,33 @@
+﻿Build started 20.09.2017 22:25:37.
+     1>Project "D:\source2006\mathlib\mathlib-2005.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\mathlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\mathlib /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D _WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt halton.cpp lightdesc.cpp mathlib_base.cpp powsse.cpp sseconst.cpp
+         halton.cpp
+         lightdesc.cpp
+         mathlib_base.cpp
+         powsse.cpp
+         sseconst.cpp
+         Создание кода...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\source2006\mathlib\.\Release\mathlib.lib) не соответствует значению свойства выходного файла (D:\source2006\lib\public\mathlib.lib) для Library. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+       PreLinkEvent:
+         if exist ..\lib\public\mathlib.lib attrib -r ..\lib\public\mathlib.lib
+         if exist ..\lib\public\mathlib.pdb attrib -r ..\lib\public\mathlib.pdb
+         
+         :VCEnd
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\public\mathlib.lib" /NOLOGO .\Release\halton.obj
+         .\Release\lightdesc.obj
+         .\Release\mathlib_base.obj
+         .\Release\powsse.obj
+         .\Release\sseconst.obj
+         mathlib-2005.vcxproj -> D:\source2006\mathlib\.\Release\mathlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Release\mathlib.unsuccessfulbuild".
+         Touching ".\Release\mathlib.lastbuildstate".
+     1>Done Building Project "D:\source2006\mathlib\mathlib-2005.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:03.98

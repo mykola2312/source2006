@@ -1,0 +1,45 @@
+﻿Build started 21.09.2017 21:59:05.
+     1>Project "D:\source2006\utils\serverplugin_sample\serverplugin_empty-2005.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\serverplugin_empty.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\dlls /I..\..\game_shared /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D serverplugin_emptyONLY /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\tier0\memoverride.cpp serverplugin_convar.cpp serverplugin_empty.cpp
+         memoverride.cpp
+         serverplugin_convar.cpp
+         serverplugin_empty.cpp
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\dlls /I..\..\game_shared /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D serverplugin_emptyONLY /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt serverplugin_bot.cpp
+         serverplugin_bot.cpp
+       ComputeCustomBuildOutput:
+         Creating directory "D:\bin\".
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/serverplugin_empty.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib\public /LIBPATH:..\lib\common odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /MANIFEST /ManifestFile:".\Release\serverplugin_empty.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Release/serverplugin_empty.pdb" /MAP:".\Release/serverplugin_empty.map" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release/serverplugin_empty.lib" /MACHINE:X86 /DLL ..\..\lib\public\tier0.lib
+         ..\..\lib\public\vstdlib.lib
+         .\Release/memoverride.obj
+         .\Release/serverplugin_bot.obj
+         .\Release/serverplugin_convar.obj
+         .\Release/serverplugin_empty.obj
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\tier1.lib
+         D:\source2006\lib\public\mathlib.lib
+         D:\source2006\lib\public\tier1.lib
+            Создается библиотека .\Release/serverplugin_empty.lib и объект .\Release/serverplugin_empty.exp
+         serverplugin_empty-2005.vcxproj -> D:\source2006\utils\serverplugin_sample\.\Release\serverplugin_empty.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/serverplugin_empty.dll;#2" /manifest .\Release\serverplugin_empty.dll.intermediate.manifest
+       CustomBuildStep:
+         Description: Performing Custom Build Step
+         attrib -r ..\..\..\bin\serverplugin_empty.dll
+         copy "D:\source2006\utils\serverplugin_sample\.\Release\serverplugin_empty.dll" ..\..\..\bin\serverplugin_empty.dll
+         
+         :VCEnd
+         Не найден файл: ..\..\..\bin\serverplugin_empty.dll
+         Скопировано файлов:         1.
+       FinalizeBuildStatus:
+         Deleting file ".\Release\serverplugin_empty.unsuccessfulbuild".
+         Touching ".\Release\serverplugin_empty.lastbuildstate".
+     1>Done Building Project "D:\source2006\utils\serverplugin_sample\serverplugin_empty-2005.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:09.57
