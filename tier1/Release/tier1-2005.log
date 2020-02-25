@@ -1,0 +1,81 @@
+﻿Build started 28.06.2018 3:17:56.
+     1>Project "D:\source2006\tier1\tier1-2005.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release\tier1.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Release\tier1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier1 /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D _WIN32 /D NDEBUG /D _LIB /D TIER1_STATIC_LIB /D _SECURE_SCL=0 /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\public\tier0\memoverride.cpp bitbuf.cpp byteswap.cpp characterset.cpp checksum_crc.cpp checksum_md5.cpp convar.cpp datamanager.cpp diff.cpp generichash.cpp interface.cpp jobthread.cpp KeyValues.cpp lzmaDecoder.cpp mempool.cpp memstack.cpp NetAdr.cpp processor_detect.cpp rangecheckedvar.cpp stringpool.cpp strtools.cpp tier1.cpp tokenreader.cpp utlbuffer.cpp utlstring.cpp utlsymbol.cpp xboxstubs.cpp
+         memoverride.cpp
+         bitbuf.cpp
+         byteswap.cpp
+         characterset.cpp
+         checksum_crc.cpp
+         checksum_md5.cpp
+         convar.cpp
+         datamanager.cpp
+         diff.cpp
+         generichash.cpp
+         interface.cpp
+         jobthread.cpp
+         KeyValues.cpp
+         lzmaDecoder.cpp
+         mempool.cpp
+         memstack.cpp
+         NetAdr.cpp
+         processor_detect.cpp
+         rangecheckedvar.cpp
+         stringpool.cpp
+         Создание кода...
+         Компиляция...
+         strtools.cpp
+         tier1.cpp
+         tokenreader.cpp
+         utlbuffer.cpp
+         utlstring.cpp
+         utlsymbol.cpp
+         xboxstubs.cpp
+         Создание кода...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\source2006\tier1\.\Release\tier1.lib) не соответствует значению свойства выходного файла (D:\source2006\lib\public\tier1.lib) для Library. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+       PreLinkEvent:
+         if exist ..\lib\public\tier1.lib attrib -r ..\lib\public\tier1.lib
+         if exist ..\lib\public\tier1.pdb attrib -r ..\lib\public\tier1.pdb
+         
+         :VCEnd
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\public\tier1.lib" /NOLOGO .\Release\memoverride.obj
+         .\Release\bitbuf.obj
+         .\Release\byteswap.obj
+         .\Release\characterset.obj
+         .\Release\checksum_crc.obj
+         .\Release\checksum_md5.obj
+         .\Release\convar.obj
+         .\Release\datamanager.obj
+         .\Release\diff.obj
+         .\Release\generichash.obj
+         .\Release\interface.obj
+         .\Release\jobthread.obj
+         .\Release\KeyValues.obj
+         .\Release\lzmaDecoder.obj
+         .\Release\mempool.obj
+         .\Release\memstack.obj
+         .\Release\NetAdr.obj
+         .\Release\processor_detect.obj
+         .\Release\rangecheckedvar.obj
+         .\Release\stringpool.obj
+         .\Release\strtools.obj
+         .\Release\tier1.obj
+         .\Release\tokenreader.obj
+         .\Release\utlbuffer.obj
+         .\Release\utlstring.obj
+         .\Release\utlsymbol.obj
+         .\Release\xboxstubs.obj
+         tier1-2005.vcxproj -> D:\source2006\tier1\.\Release\tier1.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Release\tier1.unsuccessfulbuild".
+         Touching ".\Release\tier1.lastbuildstate".
+     1>Done Building Project "D:\source2006\tier1\tier1-2005.vcxproj" (rebuild target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:07.06

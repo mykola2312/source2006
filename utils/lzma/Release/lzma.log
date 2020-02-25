@@ -1,0 +1,39 @@
+﻿Build started 07.10.2017 3:00:00.
+     1>Project "D:\source2006\utils\lzma\lzma.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Release\lzma.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\source2006\public /IC /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _NO_EXCEPTIONS /D _LZMA_PROB32 /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lzma.cpp C\7zip\Common\OutBuffer.cpp C\7zip\Common\StreamUtils.cpp C\Common\Alloc.cpp C\Common\CRC.cpp C\7zip\Compress\LZ\LZInWindow.cpp C\7zip\Compress\LZ\LZOutWindow.cpp C\7zip\Compress\LZMA\LZMADecoder.cpp C\7zip\Compress\LZMA\LZMAEncoder.cpp C\7zip\Compress\LZMA_C\LzmaDecode.c C\7zip\Compress\RangeCoder\RangeCoderBit.cpp
+         lzma.cpp
+         OutBuffer.cpp
+         StreamUtils.cpp
+         Alloc.cpp
+         CRC.cpp
+         LZInWindow.cpp
+         LZOutWindow.cpp
+         LZMADecoder.cpp
+         LZMAEncoder.cpp
+         LzmaDecode.c
+         RangeCoderBit.cpp
+         Создание кода...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\lib\common\lzma.lib" /NOLOGO .\Release\lzma.obj
+         .\Release\OutBuffer.obj
+         .\Release\StreamUtils.obj
+         .\Release\Alloc.obj
+         .\Release\CRC.obj
+         .\Release\LZInWindow.obj
+         .\Release\LZOutWindow.obj
+         .\Release\LZMADecoder.obj
+         .\Release\LZMAEncoder.obj
+         .\Release\LzmaDecode.obj
+         .\Release\RangeCoderBit.obj
+         lzma.vcxproj -> D:\source2006\utils\lzma\..\..\lib\common\lzma.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Release\lzma.unsuccessfulbuild".
+         Touching ".\Release\lzma.lastbuildstate".
+     1>Done Building Project "D:\source2006\utils\lzma\lzma.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:13.75
