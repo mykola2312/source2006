@@ -13,7 +13,7 @@
 #endif
 #include "vstdlib/strtools.h"
 #include "tier0/dbg.h"
-#include "keyvalues.h"
+#include "KeyValues.h"
 #include "cmdlib.h"
 #include "vstdlib/icommandline.h"
 #include "vcprojconvert.h"
